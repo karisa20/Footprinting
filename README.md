@@ -3,13 +3,13 @@ Repositório com o objetivo de compartilhar conhecimento.
 
 # O que é Footprinting?
 
-Mais comumente conhecido, como coleta de informações, o Footprinting é a primeira etapa ocorre em um teste de pentetração (pentest).
+Mais comumente conhecido, como coleta de informações, o Footprinting é a **primeira etapa que ocorre em um teste de pentetração (pentest).**
 
-Consiste em obter TODAS as informações possíveis a respeito do alvo (rede, mapeamento, servidores, funcionários, empresas parceiras ou terceirizadas, e-mails, redes sociais, telefones, informações no lixo, etc). Podem auxiliar no processo e quanto mais informações maior a probabilidade de acesso.
+Consiste em obter **TODAS** as informações possíveis a respeito do alvo (*rede, mapeamento, servidores, funcionários, empresas parceiras ou terceirizadas, e-mails, redes sociais, telefones, informações no lixo, etc*). Essas informações podem auxiliar no processo e quanto mais informações maior a probabilidade de acesso.
 
-A engenharia social pode contribuir para o aumento das informações coletadas, por meio do Google e Yahoo e outros mecanismos de busca, conseguimos informações.
+A **engenharia social** contribui para o aumento das informações coletadas. Além de pelo Google, Yahoo e outros mecanismos de busca, conseguimos informações relevantes.
 
-1 - Início:
+## 1 - Início:
 
 **Obter o máximo de informações possíveis**
 
@@ -23,7 +23,7 @@ Com essas informações pode-se criar uma lista de palavras que servirá para at
 
 * https://censys.io/
 
-2 - Coletar informações sobre o domínio:
+## 2 - Coletar informações sobre o domínio:
 
 Com as informações básicas enumeradas, a próxima etapa para montar o plano de ataque é coletar informações sobre o domínio.
 
@@ -40,3 +40,22 @@ Cada país tem seu órgão regulamentador. No Brasil, o responsável é o *regis
 Cuidado ao auditar a faixa de IP fornecidos via terminal *whois IP*. Pode ocorrer de a faixa pertencer a um fornecedor do cliente e não ser próprio do cliente. Portanto, audite somente o que for solicitado no escopo do pentest contratado.
 
 Após essa coleta, vamos precisar enumerar o DNS.
+
+# O que é DNS?
+
+O Domain Name System (Sistema de Nomes de Domínio), **traduz os nomes de domínios em endereços IPs** e o contrário também pode ocorrer.
+
+
+
+
+
+
+
+
+
+
+
+
+Referências:
+
+MORENO, Daniel. **Introdução ao Pentest**. Editora novatec, 2ª edição atualizada e ampliada. São Paulo, 2019.
