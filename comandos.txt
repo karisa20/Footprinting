@@ -1,0 +1,5 @@
+whois (dominio)
+
+Exemplo de uso:
+whois google.com
+
